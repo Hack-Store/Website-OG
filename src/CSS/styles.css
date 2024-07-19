@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', 'Raleway', Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,27 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+footer p {
+    font-size: 1.3em;
+    font-family: 'Indie Flower';
+    font-weight: 300;
+}
+
+footer a {
+    font-family: 'Roboto Mono';
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    color: #ccc;
+}

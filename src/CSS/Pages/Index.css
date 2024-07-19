@@ -1,0 +1,58 @@
+.highlight {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #688f96;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    animation: highlight-gleam 1.25s infinite;
+}
+
+.announcement {
+    margin-top: 3em;
+    padding: 20px;
+    background-color: #3c4f65;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@keyframes highlight-gleam {
+    10% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96);
+    }
+    20% {
+        background-image: linear-gradient(135deg, #96b5bd, #96b5bd, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96);
+    }
+    30% {
+        background-image: linear-gradient(135deg, #688f96, #96b5bd, #96b5bd, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96);
+    }
+    40% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #96b5bd, #96b5bd, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96);
+    }
+    50% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #96b5bd, #96b5bd, #688f96, #688f96, #688f96, #688f96, #688f96);
+    }
+    60% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #688f96, #96b5bd, #96b5bd, #688f96, #688f96, #688f96, #688f96);
+    }
+    70% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #688f96, #688f96, #96b5bd, #96b5bd, #688f96, #688f96, #688f96);
+    }
+    80% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #96b5bd, #96b5bd, #688f96, #688f96);
+    }
+    90% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #96b5bd, #96b5bd, #688f96);
+    }
+    100% {
+        background-image: linear-gradient(135deg, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #688f96, #96b5bd, #96b5bd);
+    }
+}
